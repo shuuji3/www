@@ -1,0 +1,56 @@
+==================================================================
+https://keybase.io/shuuji3
+--------------------------------------------------------------------
+
+I hereby claim:
+
+  * I am an admin of https://shuuji3.github.io
+  * I am shuuji3 (https://keybase.io/shuuji3) on keybase.
+  * I have a public key ASD6fRhzfVDLbMyE7z9ELZi6vOMXHGP9mUAXlrA7P6qZWAo
+
+To do so, I am signing this object:
+
+{
+  "body": {
+    "key": {
+      "eldest_kid": "0120fa7d18737d50cb6ccc84ef3f442d98babce3171c63fd99401796b03b3faa99580a",
+      "host": "keybase.io",
+      "kid": "0120fa7d18737d50cb6ccc84ef3f442d98babce3171c63fd99401796b03b3faa99580a",
+      "uid": "4d0292873fe5bbb8b1ed0ac486ceae19",
+      "username": "shuuji3"
+    },
+    "merkle_root": {
+      "ctime": 1566574891,
+      "hash": "e1fedfa8f0be7aca08da35d58c9f062515f516a4d32beb3d81dc0ca5868238541ce817ff6f884bfa8871868809040381a1735d689bb2c6439fa888fa35f56449",
+      "hash_meta": "85144cbfa08d5f08669728c1adef055573a029a81eeddb47e779728b6fd31926",
+      "seqno": 6083569
+    },
+    "service": {
+      "entropy": "uT8DEZVVw11SaqMvqRBwMzAo",
+      "hostname": "shuuji3.github.io",
+      "protocol": "https:"
+    },
+    "type": "web_service_binding",
+    "version": 2
+  },
+  "client": {
+    "name": "keybase.io go client",
+    "version": "4.3.2"
+  },
+  "ctime": 1566574909,
+  "expire_in": 504576000,
+  "prev": "972f3bf253c56418670daff9c0c85bc7959cdb39e5fefa965831435dafecd7ce",
+  "seqno": 6,
+  "tag": "signature"
+}
+
+which yields the signature:
+
+hKRib2R5hqhkZXRhY2hlZMOpaGFzaF90eXBlCqNrZXnEIwEg+n0Yc31Qy2zMhO8/RC2YurzjFxxj/ZlAF5awOz+qmVgKp3BheWxvYWTESpcCBsQgly878lPFZBhnDa/5wMhbx5Wc2znl/vqWWDFDXa/s187EIEYARoJcw8o3D8s3yvX0yNSMxUk+Wc+IO/sgIHPgltcvAgHCo3NpZ8RA8oc5uhCZz5nKoEuu0bHmHdoG8bwZx/A0rb/akq960DMIN7an/TAPQHV/AtcnM1hb3hd/kYc1Xyu2/zTU+SVQBKhzaWdfdHlwZSCkaGFzaIKkdHlwZQildmFsdWXEIArafj0R2U9DGlLFfm9DO8LU9u27TTTs1GnTBYdqADOgo3RhZ80CAqd2ZXJzaW9uAQ==
+
+And finally, I am proving ownership of this host by posting or
+appending to this document.
+
+View my publicly-auditable identity here: https://keybase.io/shuuji3
+
+==================================================================
