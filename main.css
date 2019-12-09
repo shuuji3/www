@@ -1,15 +1,21 @@
 body {
     background-color: #fffafe;
 }
+h1, h2, h3 {
+    font-family: Gilroy-Light, sans-serif !important;
+}
+h1 {
+    letter-spacing: 0.05em;
+}
+h2::before {
+    content: "🌟";
+    margin-right: 0.5rem;
+}
 a {
     color: #2196f3 !important;
 }
 a:hover {
     text-decoration: underline;
-}
-h2::before {
-    content: "🌟";
-    margin-right: 0.5rem;
 }
 .emoji {
     width: 2.5rem;
