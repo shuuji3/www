@@ -1,6 +1,9 @@
 body {
     background-color: #fffafe;
 }
+a {
+    color: #2196f3 !important;
+}
 h2::before {
     content: "🌟";
     margin-right: 0.5rem;
@@ -10,4 +13,7 @@ h2::before {
 }
 .has-margin-right-1 {
     margin-right: 0.5em
+}
+footer {
+    background-color: #e1f5fe !important;
 }
