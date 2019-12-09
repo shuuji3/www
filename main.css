@@ -8,3 +8,6 @@ h2::before {
 .emoji {
     width: 2.5rem;
 }
+.has-margin-right-1 {
+    margin-right: 0.5em
+}
