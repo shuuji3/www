@@ -1,6 +1,10 @@
 body {
     background-color: #fffafe;
 }
+h2::before {
+    content: "🌟";
+    margin-right: 0.5rem;
+}
 .emoji {
     width: 2.5rem;
 }
