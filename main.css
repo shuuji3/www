@@ -44,4 +44,5 @@ strong {
 
 footer {
     background-color: #e1f5fe !important;
+    border-top: 4px #ffeb3b solid;
 }
