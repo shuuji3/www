@@ -19,10 +19,20 @@ h2::before {
 
 a {
     color: #2196f3 !important;
+    text-decoration: underline !important;
 }
 
 a:hover {
-    text-decoration: underline;
+    text-decoration: none !important;
+}
+
+a:focus {
+    outline: solid 3px #ffc107;
+}
+
+::selection {
+    color: inherit;
+    background: #ffc107;
 }
 
 strong {
