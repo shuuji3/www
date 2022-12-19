@@ -1,3 +1,7 @@
 :8080 {
 	file_server
+
+    # webfinger requires content-type: application jrd+json
+	@webfinger path */webfinger
+    header @webfinger Content-Type application/jrd+json
 }
