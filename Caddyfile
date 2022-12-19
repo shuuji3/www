@@ -4,4 +4,10 @@
     # webfinger requires content-type: application jrd+json
 	@webfinger path */webfinger
     header @webfinger Content-Type application/jrd+json
+
+    # redirects: google-eng-practices
+	route /eng-practices/* {
+    	uri strip_prefix /eng-practices
+    	redir https://google-engineering-practices.translate.shuuji3.xyz{uri}
+    }
 }
