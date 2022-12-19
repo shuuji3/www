@@ -8,6 +8,6 @@
     # redirects: google-eng-practices
 	route /eng-practices/* {
     	uri strip_prefix /eng-practices
-    	redir https://google-engineering-practices.translate.shuuji3.xyz{uri}
+    	redir https://google-engineering-practices.translation.shuuji3.xyz{uri}
     }
 }
