@@ -1,9 +1,9 @@
 :8080 {
 	file_server
 
-    # webfinger requires content-type: application jrd+json
-	@webfinger path */webfinger
-    header @webfinger Content-Type application/jrd+json
+    route /.well-known/webfinger* {
+        redir https://webfinger.io{uri}
+    }
 
     # redirects: google-eng-practices
 	route /eng-practices/* {
