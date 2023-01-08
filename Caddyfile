@@ -11,7 +11,7 @@
         redir https://google-engineering-practices.translation.shuuji3.xyz{uri}
     }
     
-    route /eng-practices/* {
+    route /smart-health-cards-framework/* {
         uri strip_prefix /smart-health-cards-framework
         redir https://smart-health-cards-framework.translation.shuuji3.xyz{uri}
     }
