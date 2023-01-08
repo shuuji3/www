@@ -1,13 +1,18 @@
 :8080 {
-	file_server
+    file_server
 
     route /.well-known/webfinger* {
         redir https://webfinger.io{uri}
     }
 
-    # redirects: google-eng-practices
-	route /eng-practices/* {
-    	uri strip_prefix /eng-practices
-    	redir https://google-engineering-practices.translation.shuuji3.xyz{uri}
+    # Configure old URL redirection
+    route /eng-practices/* {
+        uri strip_prefix /eng-practices
+        redir https://google-engineering-practices.translation.shuuji3.xyz{uri}
+    }
+    
+    route /eng-practices/* {
+        uri strip_prefix /smart-health-cards-framework
+        redir https://smart-health-cards-framework.translation.shuuji3.xyz{uri}
     }
 }
