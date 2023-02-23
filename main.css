@@ -52,6 +52,9 @@ strong {
 
 .icon {
   font-weight: normal;
+  height: 1rem !important;
+  width: 1rem !important;
+  margin-right: 0.5rem;
 }
 
 footer {
