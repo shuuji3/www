@@ -23,5 +23,5 @@
 @import url("//hello.myfonts.net/count/3aaf1e");
 
   
-@font-face {font-family: 'Gilroy-ExtraBold';src: url('webfonts/3AAF1E_0_0.eot');src: url('webfonts/3AAF1E_0_0.eot?#iefix') format('embedded-opentype'),url('webfonts/3AAF1E_0_0.woff2') format('woff2'),url('webfonts/3AAF1E_0_0.woff') format('woff'),url('webfonts/3AAF1E_0_0.ttf') format('truetype');}
+@font-face {font-family: 'Gilroy-ExtraBold';src: url('/webfonts/3AAF1E_0_0.eot');src: url('/webfonts/3AAF1E_0_0.eot?#iefix') format('embedded-opentype'),url('/webfonts/3AAF1E_0_0.woff2') format('woff2'),url('/webfonts/3AAF1E_0_0.woff') format('woff'),url('/webfonts/3AAF1E_0_0.ttf') format('truetype');}
  
