@@ -57,6 +57,14 @@ strong {
   margin-right: 0.5rem;
 }
 
+ul.icon-list {
+  margin-left: 1em;
+}
+
+ul.icon-list > li {
+  list-style: none;
+}
+
 footer {
   background-color: #e1f5fe !important;
   border-top: 4px #ffeb3b solid;
