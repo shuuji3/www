@@ -1,9 +1,9 @@
 :8080 {
     file_server
 
-    route /.well-known/webfinger* {
-        redir https://webfinger.io{uri}
-    }
+    # webfinger requires content-type: application jrd+json
+	@webfinger path */webfinger
+    header @webfinger Content-Type application/jrd+json
 
     # Configure old URL redirection
     route /eng-practices/* {
