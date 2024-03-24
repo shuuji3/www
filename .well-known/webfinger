@@ -1,23 +1,23 @@
 {
-    "subject": "acct:shuuji3@mastodon.social",
+    "subject": "acct:shuuji3@webtoo.ls",
     "aliases": [
-        "https://mastodon.social/@shuuji3",
-        "https://mastodon.social/users/shuuji3"
+        "https://webtoo.ls/@shuuji3",
+        "https://webtoo.ls/users/shuuji3"
     ],
     "links": [
         {
             "rel": "http://webfinger.net/rel/profile-page",
             "type": "text/html",
-            "href": "https://mastodon.social/@shuuji3"
+            "href": "https://webtoo.ls/@shuuji3"
         },
         {
             "rel": "self",
             "type": "application/activity+json",
-            "href": "https://mastodon.social/users/shuuji3"
+            "href": "https://webtoo.ls/users/shuuji3"
         },
         {
             "rel": "http://ostatus.org/schema/1.0/subscribe",
-            "template": "https://mastodon.social/authorize_interaction?uri={uri}"
+            "template": "https://webtoo.ls/authorize_interaction?uri={uri}"
         }
     ]
 }
