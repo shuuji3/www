@@ -16,6 +16,7 @@ h1 {
 
 h2::before {
   content: "🌟";
+  font-family: "Noto Color Emoji", sans-serif;
   margin-right: 0.5rem;
 }
 
