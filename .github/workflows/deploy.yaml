@@ -27,7 +27,7 @@ jobs:
         with:
           region: asia-east1
           service: shuuji3-xyz
-          source: .
+          source: ./
           revision_traffic: 'LATEST=100'
 
       - name: 'Use output'
