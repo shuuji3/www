@@ -28,7 +28,6 @@ jobs:
           region: asia-east1
           service: shuuji3-xyz
           source: ./
-          revision_traffic: 'LATEST=100'
 
       - name: 'Use output'
         run: 'curl "${{ steps.deploy.outputs.url }}"'
