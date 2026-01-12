@@ -1,3 +1,21 @@
+@font-face {
+  font-family: "Roboto";
+  font-style: normal;
+  font-weight: 400;
+  font-stretch: 100%;
+  font-display: swap;
+  src: url(/webfonts/Roboto-VariableFont_wdth,wght.woff2) format('woff2');
+}
+
+@font-face {
+  font-family: "Noto Color Emoji";
+  font-style: normal;
+  font-weight: 400;
+  font-stretch: 100%;
+  font-display: swap;
+  src: url(/webfonts/NotoColorEmoji-Regular.woff2) format('woff2');
+}
+
 body {
   background-color: #fdedf2;
   font-family: Gilroy-Light, sans-serif !important;
