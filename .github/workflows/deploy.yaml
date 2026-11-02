@@ -1,33 +1,25 @@
-name: Deploy to Cloud Run
+name: Deploy to Cloudflare Pages
 
 on:
   push:
     branches:
       - main
+  workflow_dispatch:
 
 jobs:
   deploy:
     runs-on: ubuntu-latest
 
     permissions:
-      contents: 'read'
-      id-token: 'write'
+      contents: read
+      deployments: write
 
     steps:
       - uses: actions/checkout@v7
 
-      - uses: google-github-actions/auth@v3
+      - name: Deploy to Cloudflare Pages
+        uses: cloudflare/wrangler-action@v4
         with:
-          project_id: shuuji3
-          workload_identity_provider: 'projects/1012658349987/locations/global/workloadIdentityPools/identity-pool/providers/github-actions'
-          service_account: shuuji3-xyz@shuuji3.iam.gserviceaccount.com
-
-      - id: deploy
-        uses: google-github-actions/deploy-cloudrun@v3
-        with:
-          region: asia-east1
-          service: shuuji3-xyz
-          source: ./
-
-      - name: 'Use output'
-        run: 'curl "${{ steps.deploy.outputs.url }}"'
+          apiToken: ${{ secrets.CLOUDFLARE_API_TOKEN }}
+          accountId: b30fb84db3f81e8de3e80f264b302a0e
+          command: pages deploy .

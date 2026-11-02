@@ -1,0 +1,4 @@
+# Old URL redirection, mirroring the previous Caddy routes.
+# `uri strip_prefix` + `redir` maps to a splat redirect.
+/eng-practices/* https://google-engineering-practices.translation.shuuji3.xyz/:splat 301
+/smart-health-cards-framework/* https://smart-health-cards-framework.translation.shuuji3.xyz/:splat 301
